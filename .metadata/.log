@@ -1,0 +1,1007 @@
+!SESSION 2020-09-29 23:48:45.996 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\Ifath\Documents\Automation-RestAssured -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-09-29 23:49:07.049
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-09-29 23:49:07.049
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ifath'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-09-30 17:05:08.721 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_261
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data C:\Users\Ifath\Documents\Automation-RestAssured -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-09-30 17:05:18.905
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-09-30 17:05:18.919
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Ifath'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:12:16.819
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.0/R-3.5.0-20130610150119/repository/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-30 17:12:16.821
+!MESSAGE No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.0/R-3.5.0-20130610150119/repository/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:12:17.657
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.1/R-3.5.1-20130913223750/repository/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-30 17:12:17.657
+!MESSAGE No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.1/R-3.5.1-20130913223750/repository/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:12:18.867
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.2/R-3.5.2-20140217150812/repository/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-30 17:12:18.867
+!MESSAGE No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.2/R-3.5.2-20140217150812/repository/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:12:22.673
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://testng.org/doc/download.html.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-30 17:12:22.689
+!MESSAGE No repository found at https://testng.org/doc/download.html.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-09-30 17:13:01.444
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-09-30 17:13:01.444
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE Software being installed: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.0.202003090500 (org.testng.eclipse 7.1.0.202003090500) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.1.202003100345 (org.testng.eclipse 7.1.1.202003100345) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202004281604 (org.testng.eclipse 7.2.0.202004281604) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202005051752 (org.testng.eclipse 7.2.0.202005051752) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.3.0.202008060412 (org.testng.eclipse 7.3.0.202008060412) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.444
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE From: TestNG 7.1.0.202003090500 (org.testng.eclipse.feature.group 7.1.0.202003090500)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE To: org.testng.eclipse [7.1.0.202003090500]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.444
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE From: TestNG 7.1.1.202003100345 (org.testng.eclipse.feature.group 7.1.1.202003100345)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE To: org.testng.eclipse [7.1.1.202003100345]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.444
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE From: TestNG 7.2.0.202004281604 (org.testng.eclipse.feature.group 7.2.0.202004281604)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE To: org.testng.eclipse [7.2.0.202004281604]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.444
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE From: TestNG 7.2.0.202005051752 (org.testng.eclipse.feature.group 7.2.0.202005051752)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE To: org.testng.eclipse [7.2.0.202005051752]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.444
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE From: TestNG 7.3.0.202008060412 (org.testng.eclipse.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE To: org.testng.eclipse [7.3.0.202008060412]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.444
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE From: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.444
+!MESSAGE To: org.testng.eclipse.feature.group [7.1.0,8.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-09-30 17:13:01.457
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-09-30 17:13:01.457
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE Software being installed: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.0.202003090500 (org.testng.eclipse 7.1.0.202003090500) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.1.202003100345 (org.testng.eclipse 7.1.1.202003100345) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202004281604 (org.testng.eclipse 7.2.0.202004281604) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202005051752 (org.testng.eclipse 7.2.0.202005051752) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.3.0.202008060412 (org.testng.eclipse 7.3.0.202008060412) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.457
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE From: TestNG 7.1.0.202003090500 (org.testng.eclipse.feature.group 7.1.0.202003090500)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE To: org.testng.eclipse [7.1.0.202003090500]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.457
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE From: TestNG 7.1.1.202003100345 (org.testng.eclipse.feature.group 7.1.1.202003100345)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE To: org.testng.eclipse [7.1.1.202003100345]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.457
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE From: TestNG 7.2.0.202004281604 (org.testng.eclipse.feature.group 7.2.0.202004281604)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE To: org.testng.eclipse [7.2.0.202004281604]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.457
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE From: TestNG 7.2.0.202005051752 (org.testng.eclipse.feature.group 7.2.0.202005051752)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE To: org.testng.eclipse [7.2.0.202005051752]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.457
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE From: TestNG 7.3.0.202008060412 (org.testng.eclipse.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE To: org.testng.eclipse [7.3.0.202008060412]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.457
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE From: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.457
+!MESSAGE To: org.testng.eclipse.feature.group [7.1.0,8.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-09-30 17:13:01.471
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-09-30 17:13:01.471
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE Software being installed: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.0.202003090500 (org.testng.eclipse 7.1.0.202003090500) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.1.202003100345 (org.testng.eclipse 7.1.1.202003100345) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202004281604 (org.testng.eclipse 7.2.0.202004281604) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202005051752 (org.testng.eclipse 7.2.0.202005051752) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.3.0.202008060412 (org.testng.eclipse 7.3.0.202008060412) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.471
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE From: TestNG 7.1.0.202003090500 (org.testng.eclipse.feature.group 7.1.0.202003090500)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE To: org.testng.eclipse [7.1.0.202003090500]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.471
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE From: TestNG 7.1.1.202003100345 (org.testng.eclipse.feature.group 7.1.1.202003100345)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE To: org.testng.eclipse [7.1.1.202003100345]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.471
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE From: TestNG 7.2.0.202004281604 (org.testng.eclipse.feature.group 7.2.0.202004281604)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE To: org.testng.eclipse [7.2.0.202004281604]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.471
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE From: TestNG 7.2.0.202005051752 (org.testng.eclipse.feature.group 7.2.0.202005051752)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE To: org.testng.eclipse [7.2.0.202005051752]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.471
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE From: TestNG 7.3.0.202008060412 (org.testng.eclipse.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE To: org.testng.eclipse [7.3.0.202008060412]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.471
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE From: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.471
+!MESSAGE To: org.testng.eclipse.feature.group [7.1.0,8.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-09-30 17:13:01.472
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-09-30 17:13:01.472
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.472
+!MESSAGE Software being installed: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.472
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.0.202003090500 (org.testng.eclipse 7.1.0.202003090500) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.472
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.1.202003100345 (org.testng.eclipse 7.1.1.202003100345) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.472
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202004281604 (org.testng.eclipse 7.2.0.202004281604) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.472
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202005051752 (org.testng.eclipse 7.2.0.202005051752) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.472
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.3.0.202008060412 (org.testng.eclipse 7.3.0.202008060412) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.472
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.472
+!MESSAGE From: TestNG 7.1.0.202003090500 (org.testng.eclipse.feature.group 7.1.0.202003090500)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.472
+!MESSAGE To: org.testng.eclipse [7.1.0.202003090500]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.473
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.473
+!MESSAGE From: TestNG 7.1.1.202003100345 (org.testng.eclipse.feature.group 7.1.1.202003100345)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.473
+!MESSAGE To: org.testng.eclipse [7.1.1.202003100345]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.473
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.473
+!MESSAGE From: TestNG 7.2.0.202004281604 (org.testng.eclipse.feature.group 7.2.0.202004281604)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.473
+!MESSAGE To: org.testng.eclipse [7.2.0.202004281604]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.473
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.473
+!MESSAGE From: TestNG 7.2.0.202005051752 (org.testng.eclipse.feature.group 7.2.0.202005051752)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.473
+!MESSAGE To: org.testng.eclipse [7.2.0.202005051752]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.473
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.473
+!MESSAGE From: TestNG 7.3.0.202008060412 (org.testng.eclipse.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.473
+!MESSAGE To: org.testng.eclipse [7.3.0.202008060412]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:13:01.473
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.473
+!MESSAGE From: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:13:01.473
+!MESSAGE To: org.testng.eclipse.feature.group [7.1.0,8.0.0)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:13:24.636
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.0/R-3.5.0-20130610150119/repository/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:172)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:96)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.phases.Sizing.completePhase(Sizing.java:91)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.getSize(ProvUI.java:235)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.SizeComputingWizardPage$1.run(SizeComputingWizardPage.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2020-09-30 17:13:24.636
+!MESSAGE No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.0/R-3.5.0-20130610150119/repository/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:13:25.524
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.1/R-3.5.1-20130913223750/repository/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:172)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:96)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.phases.Sizing.completePhase(Sizing.java:91)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.getSize(ProvUI.java:235)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.SizeComputingWizardPage$1.run(SizeComputingWizardPage.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2020-09-30 17:13:25.524
+!MESSAGE No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.1/R-3.5.1-20130913223750/repository/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:13:26.758
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.2/R-3.5.2-20140217150812/repository/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:172)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:96)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.phases.Sizing.completePhase(Sizing.java:91)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.internal.p2.ui.ProvUI.getSize(ProvUI.java:235)
+	at org.eclipse.equinox.internal.p2.ui.dialogs.SizeComputingWizardPage$1.run(SizeComputingWizardPage.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2020-09-30 17:13:26.758
+!MESSAGE No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.2/R-3.5.2-20140217150812/repository/.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-09-30 17:14:36.540
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-09-30 17:14:36.540
+!MESSAGE session context was:(profile=epp.package.jee, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.archetype.common,1.5.2.20150413-2214
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core.ui,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.discovery,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor.xml,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.launching,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.lifecyclemapping.defaults,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.logback.appender,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.logback.configuration,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.indexer,1.5.2.20150413-2214
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime,1.5.2.20150413-2214
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.model.edit,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.refactoring,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.scm,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.feature,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt.ui,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.logback.feature,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime.slf4j.simple,1.5.2.20150413-2214
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.core,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:14:36.540
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.ui,1.5.2.20150413-2215
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:17:42.196
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://testng.org/doc/download.html.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-30 17:17:42.196
+!MESSAGE No repository found at https://testng.org/doc/download.html.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-09-30 17:18:26.736
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-09-30 17:18:26.737
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE Software being installed: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.0.202003090500 (org.testng.eclipse 7.1.0.202003090500) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.1.202003100345 (org.testng.eclipse 7.1.1.202003100345) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202004281604 (org.testng.eclipse 7.2.0.202004281604) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202005051752 (org.testng.eclipse 7.2.0.202005051752) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.3.0.202008060412 (org.testng.eclipse 7.3.0.202008060412) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.737
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE From: TestNG 7.1.0.202003090500 (org.testng.eclipse.feature.group 7.1.0.202003090500)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE To: org.testng.eclipse [7.1.0.202003090500]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.737
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE From: TestNG 7.1.1.202003100345 (org.testng.eclipse.feature.group 7.1.1.202003100345)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE To: org.testng.eclipse [7.1.1.202003100345]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.737
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE From: TestNG 7.2.0.202004281604 (org.testng.eclipse.feature.group 7.2.0.202004281604)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE To: org.testng.eclipse [7.2.0.202004281604]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.737
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE From: TestNG 7.2.0.202005051752 (org.testng.eclipse.feature.group 7.2.0.202005051752)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE To: org.testng.eclipse [7.2.0.202005051752]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.737
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE From: TestNG 7.3.0.202008060412 (org.testng.eclipse.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE To: org.testng.eclipse [7.3.0.202008060412]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.737
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE From: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.737
+!MESSAGE To: org.testng.eclipse.feature.group [7.1.0,8.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-09-30 17:18:26.743
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-09-30 17:18:26.743
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.743
+!MESSAGE Software being installed: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.743
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.0.202003090500 (org.testng.eclipse 7.1.0.202003090500) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.743
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.1.202003100345 (org.testng.eclipse 7.1.1.202003100345) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.743
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202004281604 (org.testng.eclipse 7.2.0.202004281604) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.743
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202005051752 (org.testng.eclipse 7.2.0.202005051752) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.743
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.3.0.202008060412 (org.testng.eclipse 7.3.0.202008060412) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.743
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.743
+!MESSAGE From: TestNG 7.1.0.202003090500 (org.testng.eclipse.feature.group 7.1.0.202003090500)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.743
+!MESSAGE To: org.testng.eclipse [7.1.0.202003090500]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.743
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.743
+!MESSAGE From: TestNG 7.1.1.202003100345 (org.testng.eclipse.feature.group 7.1.1.202003100345)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.743
+!MESSAGE To: org.testng.eclipse [7.1.1.202003100345]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.743
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.743
+!MESSAGE From: TestNG 7.2.0.202004281604 (org.testng.eclipse.feature.group 7.2.0.202004281604)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.744
+!MESSAGE To: org.testng.eclipse [7.2.0.202004281604]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.744
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.744
+!MESSAGE From: TestNG 7.2.0.202005051752 (org.testng.eclipse.feature.group 7.2.0.202005051752)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.744
+!MESSAGE To: org.testng.eclipse [7.2.0.202005051752]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.744
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.744
+!MESSAGE From: TestNG 7.3.0.202008060412 (org.testng.eclipse.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.744
+!MESSAGE To: org.testng.eclipse [7.3.0.202008060412]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.744
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.744
+!MESSAGE From: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.744
+!MESSAGE To: org.testng.eclipse.feature.group [7.1.0,8.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-09-30 17:18:26.764
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-09-30 17:18:26.764
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE Software being installed: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.0.202003090500 (org.testng.eclipse 7.1.0.202003090500) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.1.202003100345 (org.testng.eclipse 7.1.1.202003100345) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202004281604 (org.testng.eclipse 7.2.0.202004281604) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202005051752 (org.testng.eclipse 7.2.0.202005051752) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.3.0.202008060412 (org.testng.eclipse 7.3.0.202008060412) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.764
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE From: TestNG 7.1.0.202003090500 (org.testng.eclipse.feature.group 7.1.0.202003090500)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE To: org.testng.eclipse [7.1.0.202003090500]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.764
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE From: TestNG 7.1.1.202003100345 (org.testng.eclipse.feature.group 7.1.1.202003100345)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE To: org.testng.eclipse [7.1.1.202003100345]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.764
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE From: TestNG 7.2.0.202004281604 (org.testng.eclipse.feature.group 7.2.0.202004281604)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE To: org.testng.eclipse [7.2.0.202004281604]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.764
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE From: TestNG 7.2.0.202005051752 (org.testng.eclipse.feature.group 7.2.0.202005051752)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE To: org.testng.eclipse [7.2.0.202005051752]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.764
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE From: TestNG 7.3.0.202008060412 (org.testng.eclipse.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE To: org.testng.eclipse [7.3.0.202008060412]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.764
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE From: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.764
+!MESSAGE To: org.testng.eclipse.feature.group [7.1.0,8.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2020-09-30 17:18:26.765
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2020-09-30 17:18:26.765
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE Software being installed: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.0.202003090500 (org.testng.eclipse 7.1.0.202003090500) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.1.1.202003100345 (org.testng.eclipse 7.1.1.202003100345) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202004281604 (org.testng.eclipse 7.2.0.202004281604) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.2.0.202005051752 (org.testng.eclipse 7.2.0.202005051752) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE Missing requirement: TestNG Eclipse Support 7.3.0.202008060412 (org.testng.eclipse 7.3.0.202008060412) requires 'bundle org.eclipse.jdt.launching 3.10.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.765
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE From: TestNG 7.1.0.202003090500 (org.testng.eclipse.feature.group 7.1.0.202003090500)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE To: org.testng.eclipse [7.1.0.202003090500]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.765
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE From: TestNG 7.1.1.202003100345 (org.testng.eclipse.feature.group 7.1.1.202003100345)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE To: org.testng.eclipse [7.1.1.202003100345]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.765
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE From: TestNG 7.2.0.202004281604 (org.testng.eclipse.feature.group 7.2.0.202004281604)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE To: org.testng.eclipse [7.2.0.202004281604]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.765
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE From: TestNG 7.2.0.202005051752 (org.testng.eclipse.feature.group 7.2.0.202005051752)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE To: org.testng.eclipse [7.2.0.202005051752]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.765
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE From: TestNG 7.3.0.202008060412 (org.testng.eclipse.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE To: org.testng.eclipse [7.3.0.202008060412]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2020-09-30 17:18:26.765
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE From: TestNG M2E (Maven) Integration (Optional) 7.3.0.202008060412 (org.testng.eclipse.maven.feature.feature.group 7.3.0.202008060412)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2020-09-30 17:18:26.765
+!MESSAGE To: org.testng.eclipse.feature.group [7.1.0,8.0.0)
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-09-30 17:18:39.659
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-09-30 17:18:39.659
+!MESSAGE session context was:(profile=epp.package.jee, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.archetype.common,1.5.2.20150413-2214
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core.ui,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.discovery,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor.xml,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.launching,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.lifecyclemapping.defaults,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.logback.appender,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.logback.configuration,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.indexer,1.5.2.20150413-2214
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime,1.5.2.20150413-2214
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.model.edit,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.refactoring,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.scm,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.feature,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt.ui,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.logback.feature,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime.slf4j.simple,1.5.2.20150413-2214
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.core,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:18:39.659
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.ui,1.5.2.20150413-2215
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:27:16.445
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.0/R-3.5.0-20130610150119/repository/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.loadMetadataRepository(ProvisioningContext.java:211)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedMetadataRepositories(ProvisioningContext.java:194)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getMetadata(ProvisioningContext.java:275)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.gatherAvailableInstallableUnits(SimplePlanner.java:267)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getSolutionFor(SimplePlanner.java:328)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getProvisioningPlan(SimplePlanner.java:395)
+	at org.eclipse.equinox.internal.p2.operations.PlannerResolutionJob.runModal(PlannerResolutionJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProfileChangeOperation.resolveModal(ProfileChangeOperation.java:115)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.resolveModal(ProfileChangeOperationComputer.java:276)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.resolve(ProfileChangeOperationComputer.java:265)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.resolveInstall(ProfileChangeOperationComputer.java:198)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.run(ProfileChangeOperationComputer.java:137)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-30 17:27:16.446
+!MESSAGE No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.0/R-3.5.0-20130610150119/repository/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:27:17.559
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.1/R-3.5.1-20130913223750/repository/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.loadMetadataRepository(ProvisioningContext.java:211)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedMetadataRepositories(ProvisioningContext.java:194)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getMetadata(ProvisioningContext.java:275)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.gatherAvailableInstallableUnits(SimplePlanner.java:267)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getSolutionFor(SimplePlanner.java:328)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getProvisioningPlan(SimplePlanner.java:395)
+	at org.eclipse.equinox.internal.p2.operations.PlannerResolutionJob.runModal(PlannerResolutionJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProfileChangeOperation.resolveModal(ProfileChangeOperation.java:115)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.resolveModal(ProfileChangeOperationComputer.java:276)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.resolve(ProfileChangeOperationComputer.java:265)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.resolveInstall(ProfileChangeOperationComputer.java:198)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.run(ProfileChangeOperationComputer.java:137)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-30 17:27:17.559
+!MESSAGE No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.1/R-3.5.1-20130913223750/repository/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:27:18.821
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.2/R-3.5.2-20140217150812/repository/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.loadMetadataRepository(ProvisioningContext.java:211)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedMetadataRepositories(ProvisioningContext.java:194)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getMetadata(ProvisioningContext.java:275)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.gatherAvailableInstallableUnits(SimplePlanner.java:267)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getSolutionFor(SimplePlanner.java:328)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.getProvisioningPlan(SimplePlanner.java:395)
+	at org.eclipse.equinox.internal.p2.operations.PlannerResolutionJob.runModal(PlannerResolutionJob.java:76)
+	at org.eclipse.equinox.p2.operations.ProfileChangeOperation.resolveModal(ProfileChangeOperation.java:115)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.resolveModal(ProfileChangeOperationComputer.java:276)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.resolve(ProfileChangeOperationComputer.java:265)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.resolveInstall(ProfileChangeOperationComputer.java:198)
+	at org.eclipse.epp.internal.mpc.ui.operations.ProfileChangeOperationComputer.run(ProfileChangeOperationComputer.java:137)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-30 17:27:18.822
+!MESSAGE No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.2/R-3.5.2-20140217150812/repository/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:29:05.180
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.0/R-3.5.0-20130610150119/repository/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:172)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:96)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:91)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:104)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:174)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2020-09-30 17:29:05.180
+!MESSAGE No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.0/R-3.5.0-20130610150119/repository/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:29:06.034
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.1/R-3.5.1-20130913223750/repository/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:172)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:96)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:91)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:104)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:174)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2020-09-30 17:29:06.035
+!MESSAGE No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.1/R-3.5.1-20130913223750/repository/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-30 17:29:08.257
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.2/R-3.5.2-20140217150812/repository/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:172)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:96)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:91)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:104)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:174)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2020-09-30 17:29:08.257
+!MESSAGE No repository found at http://download.eclipse.org/webtools/downloads/drops/R3.5.2/R-3.5.2-20140217150812/repository/.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-09-30 17:30:14.458
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-09-30 17:30:14.458
+!MESSAGE session context was:(profile=epp.package.jee, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.458
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.archetype.common,1.5.2.20150413-2214
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.458
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.458
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core.ui,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.458
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.discovery,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.459
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.459
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor.xml,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.459
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.459
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.launching,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.459
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.lifecyclemapping.defaults,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.459
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.logback.appender,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.459
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.logback.configuration,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.459
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.indexer,1.5.2.20150413-2214
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.459
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime,1.5.2.20150413-2214
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.459
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.model.edit,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.459
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.refactoring,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.460
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.scm,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.460
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.feature,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.460
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt.ui,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.460
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.logback.feature,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.460
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime.slf4j.simple,1.5.2.20150413-2214
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.460
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.core,1.5.2.20150413-2215
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-09-30 17:30:14.460
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.ui,1.5.2.20150413-2215
